@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	<string-array name="statusTags">
+        <item>Guidance Call Needed</item>
+        <item>Audio Editing needed at Central Level</item>
+        <item>Publishable</item>
+        <item>Junk Call</item>
+    </string-array>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/post"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+<Button
+    android:id="@+id/try_call"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="call"
+    android:text="कॉल"
+    android:textSize="40sp"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textStyle="bold" />
+
+ <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="क्या कॉल सफलतापूर्वक दी गयी?"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="30sp" />
+ 
+     <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RadioButton android:id="@+id/yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="हां"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:onClick="onYNRadioButtonClicked"/>
+    <RadioButton android:id="@+id/no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="नहीं"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:onClick="onYNRadioButtonClicked"/>
+</RadioGroup>
+
+</LinearLayout>

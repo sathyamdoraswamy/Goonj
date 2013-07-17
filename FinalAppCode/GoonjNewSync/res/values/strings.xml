@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Goonj!</string>
+    <string name="app_name">Goonj</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_display_items">Goonj-List of Items to Moderate</string>
+    <string name="title_activity_display_guidance_items">Goonj-List of items to give Guidance Call</string>
+    <string name="title_activity_moderate">Goonj-Moderate Item</string>
+    <string name="title_activity_guidance">Goonj-Give Guidance Call</string>
+    <string name="title_activity_status">StatusActivity</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="title_activity_topic">TopicActivity</string>
+    <string name="title_activity_call">CallActivity</string>
+    <string name="title_activity_assign">AssignActivity</string>
+    <string name="title_activity_issue">IssueActivity</string>
+    <string name="forgeound_service_started">FRAMEWORK</string>
+
+</resources>

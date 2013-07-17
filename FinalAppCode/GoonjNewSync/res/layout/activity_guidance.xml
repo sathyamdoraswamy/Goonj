@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+  <TextView android:id="@+id/story"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dip"
+            android:textStyle="bold"
+            android:padding="10dip"
+            android:textColor="#ffffff"/>
+  
+         <Button
+        android:id="@+id/play_audio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="प्ले ऑडियो"
+        android:textSize="40sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:onClick="play" />
+    
+    <Button
+        android:id="@+id/make_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="कॉल"
+        android:textSize="40sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:onClick="call" />
+    
+     <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="क्या कॉल सफलतापूर्वक दी गयी?"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="30sp" />
+    
+         <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RadioButton android:id="@+id/gyes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="हां"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:onClick="onYN2RadioButtonClicked"/>
+    <RadioButton android:id="@+id/gno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="नहीं"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:onClick="onYN2RadioButtonClicked"/>
+</RadioGroup>
+  
+</LinearLayout>

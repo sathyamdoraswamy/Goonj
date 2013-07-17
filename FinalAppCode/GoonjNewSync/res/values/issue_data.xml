@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="issues">
+        <item>NREGA</item>
+        <item>Rural Urban Migration Campaign</item>
+        <item>Water Conservation Campaign</item>
+        <item>HIV/AIDS Campaign</item>
+    </string-array>
+</resources>

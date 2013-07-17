@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="topics">
+        <item>Culture and entertainment</item>
+        <item>Crime</item>
+        <item>Agriculture</item>
+        <item>Health</item>
+        <item>Livelihood</item>
+        <item>Environment</item>
+        <item>Governance</item>
+        <item>Education</item>
+    </string-array>
+</resources>

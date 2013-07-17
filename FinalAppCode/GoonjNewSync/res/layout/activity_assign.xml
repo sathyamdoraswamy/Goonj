@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/post"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/location_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="assignLocation"
+        android:text="स्थान टैग दे"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/topic_tag"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:onClick="assignTopic"
+        android:text="विषय टैग दे"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <Button
+        android:id="@+id/issue_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="assignIssue"
+        android:text="किसी मुद्दे से संबंधित करें"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>

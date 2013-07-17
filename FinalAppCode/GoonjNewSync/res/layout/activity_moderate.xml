@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/post"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+    
+    <Button
+        android:id="@+id/play_audio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="प्ले ऑडियो"
+        android:onClick="play"
+        android:textSize="40sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RadioButton android:id="@+id/junk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="रद्दी कॉल"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:onClick="onRadioButtonClicked"/>
+    <RadioButton android:id="@+id/guidance_needed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="गाइडेंस कॉल की जरूरत"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:onClick="onRadioButtonClicked"/>
+    <RadioButton android:id="@+id/audio_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ऑडियो संपादन की जरूरत है"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:onClick="onRadioButtonClicked"/>
+    <RadioButton android:id="@+id/publish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="प्रकाशनयोग्य"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:onClick="onRadioButtonClicked"/>
+</RadioGroup>
+    
+
+    
+    
+    </LinearLayout>

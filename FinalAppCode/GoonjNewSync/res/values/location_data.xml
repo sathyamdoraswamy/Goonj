@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="locations">
+        <item>Bokaro</item>
+        <item>Chatra</item>
+        <item>Deogarh</item>
+        <item>Dhanbad</item>
+        <item>Giridh</item>
+        <item>Khunti</item>
+        <item>Latehar</item>
+        <item>Pakur</item>
+        <item>Palamu</item>
+        <item>Ramgarh</item>
+        <item>Ranchi</item>
+        <item>East Singbhum</item>
+        <item>West Singbhum</item>
+    </string-array>
+</resources>
